@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -11,6 +12,7 @@
     "@vercel/postgres": "^0.8.0",
     "autoprefixer": "10.4.19",
     "bcrypt": "^5.1.1",
+    "bcrypt-nodejs": "^0.0.3",
     "clsx": "^2.1.1",
     "next": "15.0.0-canary.56",
     "next-auth": "5.0.0-beta.19",
