@@ -6,6 +6,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 # git
 
-# Proxy CONNECT aborted 的解决方案
+# Q: Proxy CONNECT aborted
+
+git 推送不上去
 
 `git config --global http.proxy "127.0.0.1:7890"`
